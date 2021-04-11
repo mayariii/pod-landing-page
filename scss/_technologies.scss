@@ -1,0 +1,20 @@
+#technologies {
+    background-color: $contrast-colour;
+    margin: auto;
+    padding: 40px 75px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.tech-list {
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+
+.tech-icon {
+    width: 35px;
+    height: 35px;
+}

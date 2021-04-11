@@ -1,0 +1,22 @@
+#contact {
+    background-color: $secondary-colour;
+    margin: auto;
+    padding: 40px 75px;
+
+    p {
+        color: $text-colour;
+        text-align: center;
+    }
+
+    a {
+        color: $primary-colour;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+h2 {
+    margin: 10px;
+}

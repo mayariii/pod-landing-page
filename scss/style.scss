@@ -1,0 +1,32 @@
+@import 'config';
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: $font;
+    color: $primary-colour;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+@import 'header';
+@import 'hero';
+@import 'about';
+@import 'recognition';
+@import 'projects';
+@import 'technologies';
+@import 'contact';
+@import 'footer';
+
+@import 'buttons';
+@import 'cards';

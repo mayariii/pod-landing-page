@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+
+    .logo {
+        width: 200px;
+        padding: 15px;
+
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    li {
+        padding: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $text-colour;
+    }
+
+    a:hover {
+        color: $hover-colour;
+    }
+
+
+    .item {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,27 @@
+#hero {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px;
+
+    h1 {
+        font-size: 4rem;
+    } 
+    
+    p {
+        margin-top: 20px;
+        color: $text-colour;
+    }
+
+    .button {
+        margin-top: 30px;
+    }
+}

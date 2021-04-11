@@ -1,0 +1,29 @@
+#projects {
+    background-color: $secondary-colour;
+    margin: auto;
+    padding: 40px 75px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+
+    .project-btn {
+        margin: 25px 0 0 0;
+
+        a {
+            color: $contrast-colour;
+        }
+    }
+}

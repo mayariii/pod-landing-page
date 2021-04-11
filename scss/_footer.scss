@@ -1,0 +1,30 @@
+#footer {
+    margin: auto;
+    padding: 40px 75px;
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    p {
+        text-align: center;
+        font-size: x-small;
+        padding: 10px;
+        color: $text-colour;
+    }
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    color: $text-colour;
+    padding: 10px;
+}
+
+.social-icon:hover {
+    color: $hover-colour;
+}

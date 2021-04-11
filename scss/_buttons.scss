@@ -1,0 +1,116 @@
+// action buttons
+.button {
+    background-color: $primary-colour;
+    border: none;
+    border-radius: 50px;
+    color: $contrast-colour;
+    font-size: large;
+    font-family: $font;
+    width: 170px;
+    height: 60px;
+}
+
+.button:hover {
+    background-color: $hover-colour;
+    cursor: pointer;
+    transition: 0.25s ease-in;
+}
+
+// info buttons
+
+.info-button {
+    background-color: $contrast-colour;
+    border: 1px solid $primary-colour;
+    border-radius: 50px;
+    color: $text-colour;
+    font-family: $font;
+    height: 44px;
+    padding: 10px 10px 10px 50px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: -1px -1px;
+    
+}
+
+.info-button:hover {
+    background-color: $hover-colour;
+    color: $contrast-colour;
+    transition: 0.1s ease-in;
+}
+
+
+// card buttons
+.card-button {
+    background-color: $primary-colour;
+    border: none;
+    border-radius: 50px;
+    color: $contrast-colour;
+    font-size: large;
+    font-family: $font;
+    width: 120px;
+    height: 40px;
+}
+
+.card-button:hover {
+    background-color: $hover-colour;
+    cursor: pointer;
+    transition: 0.25s ease-in;
+}
+
+
+
+/* icon backgrounds */
+.btn-bg-bungee {
+    background-image: url("/assets/desktop/about-icons/icon-bungee.svg");
+    
+}
+
+.btn-bg-cat {
+    background-image: url("/assets/desktop/about-icons/icon-cat.svg");
+}
+
+.btn-bg-charity {
+    background-image: url("/assets/desktop/about-icons/icon-charity.svg");
+}
+
+.btn-bg-coder {
+    background-image: url("/assets/desktop/about-icons/icon-coder.svg");
+    background-position: -1px -1px;
+}
+
+.btn-bg-creative {
+    background-image: url("/assets/desktop/about-icons/icon-creative.svg");
+}
+
+.btn-bg-gbph {
+    background-image: url("/assets/desktop/about-icons/icon-gb-ph.svg");
+    background-position: -4px -4px;
+}
+
+.btn-bg-grad-eng {
+    background-image: url("/assets/desktop/about-icons/icon-grad-eng.svg");
+}
+
+.btn-bg-grad {
+    background-image: url("/assets/desktop/about-icons/icon-grad.svg");
+}
+
+.btn-bg-ice-skate {
+    background-image: url("/assets/desktop/about-icons/icon-ice-skate.svg");
+}
+
+.btn-bg-mhfa {
+    background-image: url("/assets/desktop/about-icons/icon-mhfa.svg");
+}
+
+.btn-bg-runner {
+    background-image: url("/assets/desktop/about-icons/icon-runner.svg");
+}
+
+.btn-bg-skydive {
+    background-image: url("/assets/desktop/about-icons/icon-skydive.svg");
+}
+
+.btn-bg-stem {
+    background-image: url("/assets/desktop/about-icons/icon-stem.svg");
+}
